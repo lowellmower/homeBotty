@@ -46,6 +46,13 @@ an image below referencing the headers and `GPIO` pins.
 
 ![sonoff_headers](sonoff_headers.png)
 
+#### Specs
+- Memsize: `1024`
+- Auto creates network, PW: `configesp`
+
+
 [This will be a link to setup instructions for flashing firmware]()
 
 [This will be a link to the latest binary for the chip]()
+
+[Helpful video on flashing firmware](https://www.youtube.com/watch?v=fN_QKOWvG1s)
