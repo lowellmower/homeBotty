@@ -49,6 +49,19 @@ python3 esptool/esptool.py --port /dev/tty.SLAB_USBtoUART \
                            0x00000 sonoff.bin
 ```
 
+Do also note that, some minutes were spent in frustration that the chip was not
+registering at `/dev/tty.SLAB_USBtoUART`. After reinstalling the VCP drivers
+from [Silicon Labs](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+it became apparent this was not an issue on the machine's side. Turns out it was
+an issue with the cable. **If this doesn't work, try another cable first!**
+
 #### Links
 - [Sonoff-Tasmota Commands](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands)
+
+### Virtual COM Port (VCP) Driver
+**TL;DR** The software used to virtualize `COM` port and serialize `USB` to `UART`
+
+#### Links
+- [Sci Labs, CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+- [Sci Labs, USB Bridges](https://www.silabs.com/products/interface/usb-bridges)
 
