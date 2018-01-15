@@ -47,6 +47,7 @@ an image below referencing the headers and `GPIO` pins.
 ![sonoff_headers](sonoff_headers.png)
 
 #### Specs
+- Chip: [ESP8266EX](http://dl.itead.cc/IM151116002/0A-ESP8266_Specifications_v4.1.pdf)
 - Memsize: `1024`
 - Auto creates network, PW: `configesp`
 

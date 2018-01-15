@@ -1,7 +1,7 @@
 ### Architecture
 
 ### Nodes
-Naming convention: `{MAC_ADDR}.{HARDWARE}.{LOCATION}.{BUILDING}.{ROOM}.{SERVICE}`
+Naming convention: `{HARDWARE}.{BUILDING}.{ROOM}.{SERVICE}`
 
 ### Master Proxy
 
