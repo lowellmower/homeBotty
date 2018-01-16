@@ -10,6 +10,16 @@ can be found here.
 #### Links
 - [Espressif esptool](https://github.com/espressif/esptool)
 
+### [Node-Red](https://github.com/node-red/node-red-dashboard)
+**TL;DR** Distributed system visualization
+
+#### Links
+- [Node-Red](https://github.com/node-red/node-red-dashboard)
+
+### [Logstash]()
+
+### [Elasticsearch]()
+
 ### [Sonoff-Tasmota](https://github.com/arendst/Sonoff-Tasmota)
 **TL;DR** The firmware flashed onto many of the ESP8266 chips in this project.
 
@@ -64,4 +74,3 @@ an issue with the cable. **If this doesn't work, try another cable first!**
 #### Links
 - [Sci Labs, CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
 - [Sci Labs, USB Bridges](https://www.silabs.com/products/interface/usb-bridges)
-
