@@ -1,7 +1,8 @@
 ### Architecture
-
+![architecture](architecture.png)
 ### Nodes
-Naming convention: `{HARDWARE}.{BUILDING}.{ROOM}.{SERVICE}`
+Naming convention: `{BUILDING}.{CARDINAL_POINT}.{ROOM}.{SERVICE}`
+Example: `house.north.lvgrm.window-lamp`
 
 ### Master Proxy
 
