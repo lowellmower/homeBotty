@@ -1,18 +1,32 @@
 ### Architecture
 ![architecture](architecture.png)
 ### Nodes
-Naming convention: `{BUILDING}.{CARDINAL_POINT}.{ROOM}.{SERVICE}`
-Example: `house.north.lvgrm.window-lamp`
+- Naming convention: `{BUILDING}.{CARDINAL_POINT}.{ROOM}.{SERVICE}`
+- Example: `house.north.lvgrm.window-lamp`
 
-### Master Proxy
+### Internal Reverse Proxy
+- TLS Termination
+- Request Logging
+- Request Telemetry
 
-### Distribution Manager
+### Device Router
+- Routing
+- Service Discovery
+- Business Logic
+- Interface Backend
 
-### Global Manager
+### Elastic Search Cluster
+
+### Firewall
+- Rule set
+- Interacting
+
+### Devices and Monitors
+- Single Ingress / Egress
 
 ### API
 
-### Logging
+### Centralized Syslog
 TL;DR Centralized `rsyslog` with logstash to elasticsearch and Sense UI overlay
 
 At very least, for the ESP8266 chips running Tasmota, there is the option to
