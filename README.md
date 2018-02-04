@@ -36,6 +36,36 @@ barrier to home automation and opens up other development opportunities like
 machine learning, artificial intelligence, and usage data collection.
 
 ### Problem Statement
+Computing is becoming cheaper. Devices are becoming cheaper. The declining cost
+of home automation and the improved quality of life through connected devices
+should not be a by product of relinquishing a users personal information. If the
+hardware is not the source by which a company profits, then what is it? If the
+most valuable stream of revenue is vast amounts of data, how can the consumer to
+which that data fundamentally belongs be protected? Atop that protection which
+should be a non issue, if a user is open to sharing this information should not
+they be able to participate in the revenue which it generates?
+
+- Cost
+The cost of buying devices is cheap but comes at an alternative price of
+relinquishing personal data.
+
+- Privacy
+Terms and conditions are likely not thoroughly read and include information
+which consumers may generally not be agreeable to.
+
+- Security
+Is transmission of data encrypted? Is storage encrypted? What are some of the
+technical details of maintaining the anonymity and security of user data.
+
+- Ownership
+Every company is profiting off of user data in _some_ way or another. More than
+likely this is through selling anonymous usage to firms and/or more personalized
+localized usage to develop directed marketing. Can this be avoided? Can this
+gold mine be profit shared? Should it be?
+
+- Personalization
+How do these system learn about the user? Does the experience become more
+personalized over time? Do people want Hal in their house? Does this matter?
 
 ### [Architecture](./docs/architecture)
 Should include a TL;DR here but have a directory in this repository which is more
